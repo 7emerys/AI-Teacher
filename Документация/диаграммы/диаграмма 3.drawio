@@ -1,0 +1,182 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Страница — 1" id="pSQ-53GY55IzoUacHHh1">
+    <mxGraphModel dx="1426" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-1" value="Студент" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="150" height="1627" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-2" value="Графический интерфейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="434" y="20" width="201" height="1627" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-3" value="База данных" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="901" y="20" width="150" height="1627" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-4" value="Нажимает &quot;Каталог уроков&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-5" value="getAvailableLessons()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-3" edge="1">
+          <mxGeometry x="0.0011" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="228" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-6" value="[&#xa;  {id: 789, title: &quot;Основы Python&quot;, author: &quot;Иванов&quot;},&#xa;  {id: 790, title: &quot;Функции в Python&quot;, author: &quot;Петров&quot;}&#xa;]" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-3" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="343" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-7" value="Отображает список доступных уроков" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="395" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-8" value="Выбирает &quot;Основы Python&quot; (ID: 789)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="496" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-9" value="getLessonContent(789)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="548" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-10" value="{&#xa;  title: &quot;Основы Python&quot;,&#xa;  plan: &quot;1. Введение&#xa;2. Переменные&#xa;3. Типы данных&quot;,&#xa;  theory: &quot;Python - язык программирования...&quot;,&#xa;  examples: &quot;print(&#39;Hello World&#39;)&quot;,&#xa;  exercises: &quot;Напишите программу...&quot;&#xa;}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-3" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="768" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-11" value="Отображает учебный материал" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-12" value="Листает теорию" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="921" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-13" value="Показывает теоретический контент" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="973" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-14" value="Просматривает примеры" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="1025" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-15" value="Отображает примеры кода" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="1077" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-16" value="Открывает упражнения" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry x="0.0011" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="1129" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-17" value="Показывает задания для самостоятельной работы" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="1181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-18" value="Нажимает &quot;Вернуться к каталогу&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="1282" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-19" value="Показывает список уроков" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="1334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-20" value="Выбирает другой урок" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-1" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="323" y="1386" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-21" value="getLessonContent(новый_id)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="764" y="1438" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-22" value="Контент нового урока" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-3" target="lmxoVTWSaWMVmZH9KFDW-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-23" value="Отображает новый материал" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="lmxoVTWSaWMVmZH9KFDW-2" target="lmxoVTWSaWMVmZH9KFDW-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="326" y="1542" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-24" value="Шаг 1: Доступ к каталогу уроков" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="70" y="95" width="931" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-25" value="Шаг 2: Выбор и загрузка урока" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="70" y="415" width="931" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-26" value="Шаг 3: Изучение материала" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="70" y="840" width="489" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-27" value="Шаг 4: Переход к другим урокам" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1201" width="489" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-28" value="Студент" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1640" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-29" value="Графический интерфейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="434" y="1640" width="201" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="lmxoVTWSaWMVmZH9KFDW-30" value="База данных" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="901" y="1640" width="150" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

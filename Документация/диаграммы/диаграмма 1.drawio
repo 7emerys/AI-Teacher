@@ -1,0 +1,267 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.8 Chrome/140.0.7339.240 Electron/38.4.0 Safari/537.36" version="28.2.8">
+  <diagram name="Страница — 1" id="v-Xnxe0tq_lah5eexqsm">
+    <mxGraphModel dx="2593" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-1" value="Преподаватель" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;textShadow=0;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="150" height="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-2" value="Студент" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="630" y="110" width="150" height="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-3" value="Графический интерфейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="911" y="110" width="201" height="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-4" value="Модуль аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1343" y="110" width="202" height="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-5" value="База данных (MySQL)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="110" width="175" height="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-6" value="Открывает окно регистрации" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-1" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="266" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-7" value="Вводит: логин, пароль" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-1" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="318" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-8" value="registerUser(логин, пароль, &quot;преподаватель&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-9" value="checkLoginExists(логин)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-10" value="false (логин свободен)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-11" value="hashPassword(пароль)" style="curved=1;endArrow=block;rounded=0;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1495" y="526" />
+              <mxPoint x="1495" y="556" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-12" value="createUser(логин, хэш_пароля, &quot;преподаватель&quot;)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry x="-0.1171" y="8" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="608" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-13" value="user_id = 123" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-14" value="RegistrationSuccess(user_id, роль)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry x="-0.0146" y="-2" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1239" y="712" />
+            </Array>
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-15" value="&quot;Регистрация успешна!&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="764" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-16" value="Вводит логин и пароль" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-1" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry x="0.0035" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="767" y="865" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-17" value="login(логин, пароль)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="917" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-18" value="getUserByLogin(логин)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="969" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-19" value="{хэш_пароля, роль}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="1021" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-20" value="verifyPassword(пароль, хэш_пароля)" style="curved=1;endArrow=block;rounded=0;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1495" y="1073" />
+              <mxPoint x="1495" y="1103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-21" value="createSession(user_id)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="1155" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-22" value="session_id = &quot;abc123&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="1207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-23" value="LoginSuccess(user_id, &quot;преподаватель&quot;, session_id)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1239" y="1259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-24" value="loadTeacherInterface()" style="curved=1;endArrow=block;rounded=0;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="1311" />
+              <mxPoint x="1062" y="1341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-25" value="Загружен интерфейс преподавателя" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="1393" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-26" value="Вводит логин и пароль студента" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-2" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="1494" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-27" value="login(логин, пароль)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1236" y="1546" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-28" value="getUserByLogin(логин)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="1598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-29" value="{хэш_пароля, роль = &quot;студент&quot;}" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="1650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-30" value="verifyPassword(пароль, хэш_пароля)" style="curved=1;endArrow=block;rounded=0;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1495" y="1702" />
+              <mxPoint x="1495" y="1732" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-31" value="createSession(user_id)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1664" y="1784" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-32" value="session_id = &quot;def456&quot;" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-5" target="pZXNQ0Vpi_qV2flcmRHT-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1667" y="1836" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-33" value="LoginSuccess(user_id, &quot;студент&quot;, session_id)" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-4" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1239" y="1888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-34" value="loadStudentInterface()" style="curved=1;endArrow=block;rounded=0;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1062" y="1940" />
+              <mxPoint x="1062" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-35" value="Загружен интерфейс студента" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;fontSize=15;" parent="1" source="pZXNQ0Vpi_qV2flcmRHT-3" target="pZXNQ0Vpi_qV2flcmRHT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="2022" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-36" value="Часть 1: Регистрация преподавателя" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="480" y="185" width="1412" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-37" value="Часть 2: Аутентификация преподавателя" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="480" y="784" width="1412" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-38" value="Часть 3: Аутентификация студента" style="fillColor=#ffff88;strokeColor=#9E916F;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1413" width="1212" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-39" value="Преподаватель" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="430" y="2127" width="150" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-40" value="Студент" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="630" y="2127" width="150" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-41" value="Графический интерфейс" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="911" y="2127" width="201" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-42" value="Модуль аутентификации" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1343" y="2127" width="202" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="pZXNQ0Vpi_qV2flcmRHT-43" value="База данных (MySQL)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="1780" y="2127" width="175" height="73" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
